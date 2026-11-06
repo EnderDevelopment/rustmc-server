@@ -1,0 +1,19 @@
+name: RustMC
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Rust-inspired Minecraft survival mode.
+commands:
+  rustmc:
+    description: Shows RustMC survival information.
+    usage: /rustmc
+  thirst:
+    description: Shows your current thirst level.
+    usage: /thirst
+permissions:
+  rustmc.info:
+    description: Allows use of /rustmc.
+    default: true
+  rustmc.thirst:
+    description: Allows use of /thirst.
+    default: true
